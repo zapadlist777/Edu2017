@@ -24,6 +24,11 @@ a {
     color: white;
 }
 
+a:after{
+    text-decoration: none;
+    color: white;
+}
+
 ul {
   font-size: 0;
   margin-left:12%;
