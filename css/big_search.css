@@ -33,6 +33,13 @@
 }
 
 ul {
+    font-size: 0;
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0;
 }
 .people, .popular, .recent {
     display: inline-block;
@@ -42,7 +49,32 @@ ul {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    margin-left: 4%;
-    margin-right: 0;
-    padding-top: 2%;
+    margin-left: 3.5%;
+}
+li {
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 16px;
+}
+span {
+    display: inline-block;
+}
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: #c2c2c2;
+    background: #f8f8f9;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+}
+a:hover {
+    background: #f1f1f2;
+}
+.people img {
+    border-radius: 90%;
 }
