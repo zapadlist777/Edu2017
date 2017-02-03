@@ -14,8 +14,10 @@ form {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     margin-top: 3%;
+    vertical-align: top;
 }
-input[type=search] {
+
+input {
     background: #f1f1f1;
     border: none;
     display: inline-block;
@@ -31,7 +33,7 @@ input[type=search] {
 input[placeholder] {
     font-size: 7em;
 }
-button[type=submit] {
+button{
     display: inline-block;
     background-color: #f1f1f1;
     border: none;
@@ -44,7 +46,7 @@ button[type=submit] {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    margin-left: 1%;
+    margin-left: 10%;
 }
 
 .middle {
