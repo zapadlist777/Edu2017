@@ -7,12 +7,13 @@
     background: #f1f1f1;
 }
 
-.search {
+form {
     display: inline-block;
     width: 100%;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    margin-top: 3%;
 }
 input[type=search] {
     background: #f1f1f1;
@@ -22,6 +23,13 @@ input[type=search] {
     height: 20%;
     display: inline-block;
     width: 60%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+input[placeholder] {
+    font-size: 7em;
 }
 button[type=submit] {
     display: inline-block;
@@ -29,9 +37,14 @@ button[type=submit] {
     border: none;
     display: inline-block;
     background-image: url(/images/favicon.png);
-    width: 14%;
+    width: 20%;
     background-repeat: no-repeat;
-    height: auto;
+    height: 25%;
+    background-position: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: 1%;
 }
 
 .middle {
