@@ -25,6 +25,7 @@ button[type=submit] {
     background-color: #f1f1f1;
     border: none;
     display: inline-block;
+    background-image: url(/images/favicon.png);
 
 }
 
