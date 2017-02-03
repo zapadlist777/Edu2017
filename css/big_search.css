@@ -14,7 +14,8 @@ form {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     margin-top: 3%;
-    vertical-align: top;
+    vertical-align: text-top;
+    padding-bottom: 5%;
 }
 
 input {
@@ -46,11 +47,12 @@ button{
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    margin-left: 10%;
+    margin-left: 19%;
+    margin-top: 3%
 }
 
 .middle {
-    width: 80%;
+    width: 85%;
     margin-left: 10%;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -78,13 +80,13 @@ ul {
 
 .people, .popular, .recent {
     display: inline-block;
-    width: 28%;
+    width: 30%;
     height: 100%;
     vertical-align: top;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    margin-left: 4%;
+    margin-right: 2%;
 }
 li {
     display: inline-block;
@@ -94,7 +96,6 @@ li {
     width: 100%;
     font-size: 16px;
     border-radius: 5px;
-    margin: 1%;
 }
 span {
     display: inline-block;
@@ -105,7 +106,7 @@ img {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    margin: 1%;
+    margin: 3%;
 }
 a {
     display: inline-block;
