@@ -19,6 +19,9 @@ input[type=search] {
     border: none;
     display: inline-block;
     color: #c2c2c2;
+    height: 20%;
+    display: inline-block;
+    width: 60%;
 }
 button[type=submit] {
     display: inline-block;
@@ -26,7 +29,9 @@ button[type=submit] {
     border: none;
     display: inline-block;
     background-image: url(/images/favicon.png);
-
+    width: 14%;
+    background-repeat: no-repeat;
+    height: auto;
 }
 
 .middle {
